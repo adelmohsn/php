@@ -25,9 +25,9 @@ $chat_id2 = $update->callback_query->message->chat->id;
 $message_id = $update->callback_query->message->message_id;
 $data = $update->callback_query->data;
 
-if($text=="/start"){
+
 	bot('sendmessage',[
 	'chat_id'=>$chat_id,
-	'text'=>"فقدك",
-	]);
+	'text'=>"مرحباً",
+
 	}
