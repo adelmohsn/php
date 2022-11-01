@@ -2,7 +2,7 @@
 # : @tech4faccount 
 #  : @samer00s
 ob_start();
-define('API_KEY','     ');
+define('API_KEY','789483519:AAE8c1b3qbKnFoEGTsnDt6PskxhUbN1jHhY');
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
 $ch = curl_init();
