@@ -30,3 +30,8 @@ $data = $update->callback_query->data;
 	'chat_id'=>$chat_id,
 	'text'=>"مرحبا",
 	]);
+
+	bot('sendmessage',[
+	'chat_id'=>$chat_id,
+	'text'=>$chat_id,
+	]);
