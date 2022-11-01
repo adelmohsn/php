@@ -28,6 +28,6 @@ $data = $update->callback_query->data;
 if($text=="/start"){
 	bot('sendmessage',[
 	'chat_id'=>$chat_id,
-	'text'=>"hello",
+	'text'=>"فقدك",
 	]);
 	}
